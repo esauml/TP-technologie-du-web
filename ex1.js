@@ -137,38 +137,125 @@ const spirale = (n) => {
      *              [10,  9,  8, 7]]
      */
 
+    let arrayObj = new Array(n);
+    for (var i = 0; i < n; i++) {
+        arrayObj[i] = new Array(n);
+    }
+
+    let pinLeft = false;
+    let goingToUp = true;
+    let counter = 1;
+
+    let pin = n - 1;
+    let pin2 = 0;
+
+    for (let i = n - 1; i > 0; i--) {
+        if (goingToUp) {
+            for (let pin = 0; pin < n; pin++) {}
+        } else {
+
+        }
+    }
+
+    let auxiliar = true;
+    let pin1 = n;
+    let pin2 = 0;
+
+    for (let cycles = n; cycles < 1; cycles--) {
+
+    }
 };
 
+spirale(5);
 
 const puissance4 = (grid) => {
-    /**
-     * Vérifie si un joueur a gagné au puissance 4,
-     * c'est-à-dire s'il a 4 jetons contigus en diagonales, lignes ou colonnes.
-     *
-     * Exemples :
-     *
-     * puissance4(
-     *  [[ 1, 0, 0, 0 ],
-     *   [ 2, 1, 0, 0 ],
-     *   [ 2, 1, 1, 2 ],
-     *   [ 2, 1, 1, 2 ]]
-     *   ) = 1
-     * )
-     *
-     * puissance4(
-     *  [[ 1, 1, 0, 0, 0 ],
-     *   [ 2, 2, 2, 0, 0 ],
-     *   [ 2, 2, 1, 1, 2 ],
-     *   [ 2, 2, 1, 1, 2 ]]
-     *   ) = 0
-     *
-     * puissance4(
-     *  [[ 1, 2, 0, 0, 0 ],
-     *   [ 1, 2, 2, 0, 0 ],
-     *   [ 2, 2, 1, 1, 2 ],
-     *   [ 2, 2, 1, 1, 2 ]]
-     *   ) = 0
-     */
+    const puissance4 = (grid) => {
+        const vertical = (grid) => {
+            for (let i = 0; i < grid.length; i++) {
+                let n = 1;
+                for (let o = 0; o < grid[i].length; o++) {
+                    switch (grid[o][i]) {
+                        case 1:
+                            if (n == 4) {
+                                return 1;
+                            }
+
+                            grid[o][i + 1] == 1 ? n++ : (n = 1);
+                            break;
+                        case 2:
+                            if (n == 4) {
+                                return 2;
+                            }
+                            grid[o][i + 1] == 2 ? n++ : (n = 1);
+                            break;
+                        default:
+                            break;
+                    }
+                }
+            }
+        };
+        const diagonal = (grid) => {
+            let n = 1;
+            for (const i in grid) {
+                switch (grid[i][i]) {
+                    case 1:
+                        if (n == 4) {
+                            return 1;
+                        }
+                        if (i != grid[i].length - 2)
+                            grid[parseInt(i) + 1][parseInt(i) + 1] == 1 ? n++ : (n = 1);
+                        break;
+                    case 2:
+                        if (n == 4) {
+                            return 2;
+                        }
+                        if (i != grid[i].length - 2)
+                            grid[parseInt(i) + 1][parseInt(i) + 1] == 2 ? n++ : (n = 1);
+                        break;
+                    default:
+                        break;
+                }
+            }
+        };
+        const horizontal = (element) => {
+            let n = 1;
+            for (let i = 0; i < element.length; i++) {
+                switch (element[i]) {
+                    case 1:
+                        if (n == 4) {
+                            return 1;
+                        }
+
+                        element[i + 1] == 1 ? n++ : (n = 1);
+
+                        break;
+                    case 2:
+                        n++;
+                        element[i + 1] == 2 ? n++ : (n = 1);
+                        if (n == 4) {
+                            return 2;
+                        }
+                        break;
+                    default:
+                        break;
+                }
+            }
+        };
+        for (const element in grid) {
+            const n = horizontal(grid[element]);
+            if (n == 1 || n == 2) {
+                return n;
+            }
+        }
+        const n = diagonal(grid);
+        if (n == 1 || n == 2) {
+            return n;
+        }
+        const v = vertical(grid);
+        if (n == 1 || n == 2) {
+            return n;
+        }
+    };
 }
 
 module.exports = {
