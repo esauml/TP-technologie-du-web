@@ -48,3 +48,19 @@ ul{
     transform: rotate(360deg);
   }
 }
+
+img {
+  float: right;
+  height: 15em;
+  bottom: 0;
+}
+
+button {
+  background-color: #de2e3d;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
