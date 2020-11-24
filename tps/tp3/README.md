@@ -2,16 +2,17 @@
 
 ## Analyse de code
 
-Analysez le [code situé du projet](https://codesandbox.io/s/tp-props-q0wln?file=/src/App.js) puis répondez aux questions.
-
 
 **1. Quelle ligne charge le fichier JSON dans le code ?**
+la ligne 4, dans l'import
 
 **2. Quelle est la structure de données du fichier JSON ?**
 
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
+Le
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
+Les donées de "name" 
 
 **5. A quoi correspond `PropTypes.shape` ?**
 
