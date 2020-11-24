@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  text-align: left;
+  margin-left: 2.5rem;
+  margin-top: 8rem;
+
 }
 
 .App-logo {
@@ -27,7 +30,16 @@
 .App-link {
   color: #61dafb;
 }
+h1{
+  font-family: 'Nerko One', cursive;
+  color:#2b1131;
+  letter-spacing: 0.2rem;
+  font-size: 2.3rem;
+}
+ul{
+  list-style: none;
 
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
