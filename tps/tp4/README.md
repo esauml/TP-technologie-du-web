@@ -71,7 +71,7 @@ oui, il prend une fonction qui renvoie un élément React et l'appelle au lieu d
 
 Grâce à la librairie, nous ajoutons des propriétés css par défaut à toutes les `inputs`, telles que le padding, margin, background, border y border-radius. Ce n'est que via la valeur isValid dans les accessoires que nous ajoutons la couleur à l'étiquette.
 
-Ceci est le lien [slack](https://stackoverflow.com/questions/11543735/why-the-result-of-booltrue-string-is-string-in-javascript) pour comprendre la estructure de:
+Voici le lien [slack](https://stackoverflow.com/questions/11543735/why-the-result-of-booltrue-string-is-string-in-javascript) pour comprendre la estructure de:
 
 ```js
 color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};    
