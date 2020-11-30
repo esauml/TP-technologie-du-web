@@ -49,6 +49,13 @@ oui, il prend une fonction qui renvoie un élément React et l'appelle au lieu d
 
 **6. Précisez étape par étape ce que fait React lorsque le champ nom est modifié.**
 
+1. nous sauvegardons la validation de la fonction validateMessage dans le const message
+2. nous créons un élément input avec
+    1. ```valeur``` -> valeur de rendu précédente
+    1. ```onchange``` -> définir le nom avec l'argument: valeur après que l'utilisateur ait fini de taper
+    2. ```isvalid``` -> on s'adapte en fonction de la valeur obtenue à partir du message const
+3. ajoutez un espace avec ```{" "}```
+4. Nous montrons le message de confirmation du const message
 
 
 **7. Expliquez la regex pour valider un email. Vous pouvez la recopier dans regex101.com pour vous aider.**
