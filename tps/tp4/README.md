@@ -69,7 +69,7 @@ oui, il prend une fonction qui renvoie un élément React et l'appelle au lieu d
 **8. Un composant a été designé avec `styled-components`. En s'aidant de la [documentation de cette librairie](https://styled-components.com/docs/basics#getting-started), expliquez en quoi consiste ce design.**
 
 
-Grâce à la librairie, nous ajoutons des propriétés css par défaut à toutes les `inputs`, telles que le padding, margin, background, border y border-radius. Ce n'est que via la valeur isValid dans les accessoires que nous ajoutons la couleur à l'étiquette.
+Grâce à la librairie, nous ajoutons des propriétés css par défaut à toutes les `inputs`, telles que le padding, margin, background, border y border-radius. Ce n'est que via la valeur isValid dans les arguments de `props` que nous ajoutons la couleur à l'étiquette.
 
 Voici le lien [slack](https://stackoverflow.com/questions/11543735/why-the-result-of-booltrue-string-is-string-in-javascript) pour comprendre la estructure de:
 
