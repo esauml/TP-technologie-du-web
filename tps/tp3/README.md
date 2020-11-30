@@ -24,8 +24,11 @@ Les donées de "name"
 
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**
-
-(Pensez à mettre votre code dans des balises Markdown  !!)
+```js
+let date=props.dob.date.substring(0,10);
+date=date.split("-");
+<p>{props.gender==="male"?"Né":"Née"} le {date[2]}/{date[1]}/{date[0]}</p>
+```
 
 ## Rédaction de tests
 **9. Lisez [les recettes de tests](https://fr.reactjs.org/docs/testing-recipes.html#gatsby-focus-wrapper). Rédigez un test pour vérifier que le composant `User` contient une image.**
