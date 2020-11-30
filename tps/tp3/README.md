@@ -22,7 +22,7 @@ Cela se utilise pour valider un objet avec une forme spécifique.
 Parce que nous pouvons utiliser d'abord la fonction de forme avec (), puis nous spécifions le format de clé et le type de l'objet avec {}
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**
-
+spread operator, c'est dangereux pourquoi il transmet toutes les données indépendamment des données supplémentaires qui ne lui sont pas nécessaires.
 
 **8. Ajoutez un paragraphe `p` au composant `User` pour afficher la date de naissance sous la forme "Né le 27/02/1942" pour un homme ou "Née le 27/02/1942" pour une femme en utilisant une condition ternaire. Copiez le code ajouté dans ce document en guise de réponse.**
 ```js
@@ -44,8 +44,9 @@ date=date.split("-");
 **12. Proposez 3 autres tests**
 
 
-## Mini-projet 
+## [Mini-projet](https://goofy-leavitt-517775.netlify.app/)
 
 [Téléchargez une liste de films sous le format d'un fichier JSON](https://imdb-api.com/). Cela vous demandera de créer un compte.
 
 **13. Créez un nouveau projet et affichez les films sous la forme de cartes. Vous devrez soigner le design de la page, sans copiant le code de la liste d'utilisateurs**
+
