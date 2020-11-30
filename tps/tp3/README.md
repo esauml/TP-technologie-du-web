@@ -4,21 +4,22 @@
 
 
 **1. Quelle ligne charge le fichier JSON dans le code ?**
-la ligne 4, dans l'import
+la ligne 4, dans l'import.
 
 **2. Quelle est la structure de données du fichier JSON ?**
-Dans le json, nous pouvons trouver deux objets, des résultats et des informations. Aussi dans le premier objet, nous pouvons trouver un arrangement d'objets qui représentent un utilisateur
+Dans le json, nous pouvons trouver deux objets, des résultats et des informations. Aussi dans le premier objet, nous pouvons trouver un arrangement d'objets qui représentent un utilisateur.
 
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
-Le
+Les données qui ne sont pas prises en compte sont:  login, dob, registered, id, phone et cell. Cela est car User PropTypes seulement vérifie les donnes qui utilise dans son code, il n'a pas besoin de vérifier tous les props.
 
 **4. Quelles données sont obligatoires pour construire le composant `User` ?**
-Les donées de "name" 
+Les donées de object "name".
 
 **5. A quoi correspond `PropTypes.shape` ?**
+Cela se utilise pour valider un objet avec une forme spécifique.
 
 **6. Pourquoi l'attribut contient deux accolades ?**
-
+Parce que nous pouvons utiliser d'abord la fonction de forme avec (), puis nous spécifions le format de clé et le type de l'objet avec {}
 
 **7. Quel est le nom de l'opérateur qui transmet les données du composant `App` vers le composant `User`? Pourquoi est-ce dangereux d'abuser de cet opérateur ?**
 
