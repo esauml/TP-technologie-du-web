@@ -7868,10 +7868,6 @@ react-scripts@4.0.1:
   optionalDependencies:
     fsevents "^2.1.3"
 
-react-seven-segment-display@2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/react-seven-segment-display/-/react-seven-segment-display-2.1.0.tgz#a3dabc42d1d610e1252cda107f03e469350554bf"
-
 react@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
