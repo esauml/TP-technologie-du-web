@@ -1,0 +1,53 @@
+img {
+  display: block;
+  border: 0;
+  width: 80%;
+  height: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+
+/* Flexbox stuff */
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: line;
+}
+.card {
+  display: flex;
+  flex-direction: line;
+  flex: 0 1 24%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 8px;
+  text-align: center;
+}
+.card:hover {
+  box-shadow: 0 7px 30px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+}
+
+.card-content {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  padding: 1.4em;
+}
+.card__title {
+  color: #696969;
+  font-size: 1.25rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.container {
+  padding: 2px 4px;
+}
