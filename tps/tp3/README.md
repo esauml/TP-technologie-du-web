@@ -32,6 +32,9 @@ date=date.split("-");
 ```
 
 ## Rédaction de tests
+
+### Voici le lien [codesandbox.io](https://codesandbox.io/s/react-props-list-from-file-forked-uvi4y?file=/src/test/captureInstantanes.test.js) où vous trouverez les tests
+
 **9. Lisez [les recettes de tests](https://fr.reactjs.org/docs/testing-recipes.html#gatsby-focus-wrapper). Rédigez un test pour vérifier que le composant `User` contient une image.**
 
 **10. Rédigez un autre test dans lequel vous créez le composant `User` avec le `name` de votre choix dans le `props` et vérifiez que le composant affiche bien le `name`.**
