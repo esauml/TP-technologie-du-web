@@ -79,6 +79,11 @@ color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};
 
 ## Mini-projet : un timer
 
+
+#### Lien vers [codesandbox.io](https://codesandbox.io/s/magical-ardinghelli-ci9gz)
+
+#### Liens vers [netlify.com](https://csb-ci9gz.netlify.app/)
+
 Programmez un composant qui s'incrémente à chaque seconde. Vous aurez pour cela besoin d'utiliser la fonction [`setInterval`](https://www.w3schools.com/jsref/met_win_setinterval.asp). 
 
 Créez un bouton pour démarrer et arrêter le timer. Séparez les secondes des minutes. Réinitialisez le compteur lorsqu'il atteint la valeur `99:59`. Ajoutez une image de fond pour que cela ressemble à un réveil. Utilisez la librairie [react-seven-segment-display](https://www.npmjs.com/package/react-seven-segment-display) pour rendre votre réveil plus réaliste. 
