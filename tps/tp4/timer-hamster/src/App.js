@@ -1,72 +1,59 @@
-import "./App.css";
-import React from "react";
+import React, { useState, useRef } from "react";
+import styled from "styled-components";
+import "./styles.css";
 import SevenSegmentDisplay from "./react-seven-segment-display";
 
-function Minutos({ min, setMin }) {
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      if (min < 99) {
-        setMin(min=>min+1);
-      } else {
-        setMin(0);
-      }
-    }, 60000);
-    return () => clearInterval(interval);
-  },[]);
-  return min > 9 ? (
-    <>
-      <SevenSegmentDisplay value={min.toString(10).split("")[0]} />
-      <SevenSegmentDisplay value={min.toString(10).split("")[1]} />
-    </>
-  ) : (
-    <>
-      <SevenSegmentDisplay value="0" />
-      <SevenSegmentDisplay value={min} />
-    </>
-  );
-}
-function Segundos({ sec, setSec }) {
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      if (sec < 60) {
-        setSec(1 + sec);
-      } else {
-        setSec(0);
-      }
-    }, 1000);
-    return () => clearInterval(interval);
-  });
+const ButtonStyled = styled.button`
+  background: "palevioletred";
+  color: "white";
+  font-size: 1em;
+  margin: 1em;
+  padding: 0.25em 1em;
+  border: 2px solid palevioletred;
+  border-radius: 3px;
+`;
 
-  return sec > 9 ? (
-    <>
-      <SevenSegmentDisplay value={sec.toString(10).split("")[0]} />
-      <SevenSegmentDisplay value={sec.toString(10).split("")[1]} />
-    </>
-  ) : (
-    <>
-      <SevenSegmentDisplay value="0" />
-      <SevenSegmentDisplay value={sec} />
-    </>
-  );
-}
-function App() {
-  const [min, setMin] = React.useState(0);
-  const [sec, setSec] = React.useState(0);
-  const [flag, setFlag] = React.useState(false);
-  const [pausa, setPause]=React.useState(false);
-  const handleClick = (e) => {
-    e.preventDefault();
-    setFlag(!flag);
-    setMin(0);
-    setSec(0);
+export default function App() {
+  const [seconds, setSeconds] = useState(0);
+  const [flag, setFlag] = useState(true);
+  const interval = useRef(null);
+
+  function onTimer() {
+    interval.current = setInterval(() => {
+      setSeconds((seconds) => seconds + 1);
+    }, 1000);
+  }
+
+  function offTimer() {
+    clearInterval(interval.current);
+  }
+
+  function bound() {
+    if (flag) {
+      onTimer();
+    } else {
+      offTimer();
+    }
+    setFlag((flag) => !flag);
+  }
+
+  const formatTime = () => {
+    let timeString;
+
+    //[hard validation] superior limit validation
+    if (seconds === 99 * 60 + 59) setSeconds((seconds) => 0);
+
+    timeString = `${Math.floor(seconds / 60)} : ${seconds % 60}`;
+
+    return timeString;
   };
+
   return (
-    <div>
-      <Minutos min={min} setMin={setMin} />:
-      <Segundos sec={sec} setSec={setSec} />
-      <button onClick={handleClick}>reboot</button>
+    <div className="App">
+      <header className="App-header">
+        <p>{formatTime()}</p>
+        <ButtonStyled onClick={() => bound()}>Start/Stop</ButtonStyled>
+      </header>
     </div>
   );
 }
-
-export default App;
