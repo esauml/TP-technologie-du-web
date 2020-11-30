@@ -73,9 +73,9 @@ Grâce à la librairie, nous ajoutons des propriétés css par défaut à toutes
 
 Ceci est le lien [slack](https://stackoverflow.com/questions/11543735/why-the-result-of-booltrue-string-is-string-in-javascript) pour comprendre la estructure de:
 
-    ```js
-        color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};
-    ```
+```js
+color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};    
+```
 
 ## Mini-projet : un timer
 
