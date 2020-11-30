@@ -44,8 +44,7 @@ date=date.split("-");
 **12. Proposez 3 autres tests**
 
 
-## Mini-projet 
-[Liste films](https://goofy-leavitt-517775.netlify.app/)
+## [Mini-projet](https://goofy-leavitt-517775.netlify.app/)
 
 [Téléchargez une liste de films sous le format d'un fichier JSON](https://imdb-api.com/). Cela vous demandera de créer un compte.
 
