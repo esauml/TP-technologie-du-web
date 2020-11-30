@@ -6,13 +6,15 @@ import films from "./Movies.json";
 function Movies(props) {
   return (
     <div className="card">
-      <div className="card-content">
-        <img src={props.image} alt={props.title} style={{ width: "70%" }} />
+      <div className="card-content" style={{backgroundImage:
+        "url("+props.image+")"}}>
+       
+        <div className="container">
         <h4 className="card__title">{props.fullTitle}</h4>
+
           <p>Crew: {props.crew}</p>
           <p>Year: {props.year}</p>
-          <p>Rating: {props.imDbRating}</p><div className="container">
-          
+          <p>Rating: {props.imDbRating}</p>
         </div>
       </div>
     </div>
