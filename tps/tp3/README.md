@@ -7,6 +7,7 @@
 la ligne 4, dans l'import
 
 **2. Quelle est la structure de données du fichier JSON ?**
+Dans le json, nous pouvons trouver deux objets, des résultats et des informations. Aussi dans le premier objet, nous pouvons trouver un arrangement d'objets qui représentent un utilisateur
 
 **3. Justifiez le `User.propTypes`. Quelles données ne sont pas prises en compte ?**
 Le
