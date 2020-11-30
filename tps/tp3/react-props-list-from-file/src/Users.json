@@ -1,0 +1,371 @@
+{
+  "results": [
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Eder", "last": "da Cunha" },
+      "location": {
+        "street": { "number": 2090, "name": "Rua Pernambuco " },
+        "city": "Araguari",
+        "state": "Espírito Santo",
+        "country": "Brazil",
+        "postcode": 65931,
+        "coordinates": { "latitude": "-79.1817", "longitude": "-133.4020" },
+        "timezone": {
+          "offset": "+2:00",
+          "description": "Kaliningrad, South Africa"
+        }
+      },
+      "email": "eder.dacunha@example.com",
+      "login": {
+        "uuid": "44837049-0bdc-4e7f-a48a-b96ce5bc1545",
+        "username": "orangemouse732",
+        "password": "dominic",
+        "salt": "aQ1W6E9j",
+        "md5": "6d2f9de3dc023a5b0789e74a931318b1",
+        "sha1": "606b9c45ba444a18e6896e343c3c7b2339e9cc8c",
+        "sha256": "bd3928b91f1ddc269050030e8e712138d56d1c9705d847b5fdb0b9b199ed8346"
+      },
+      "dob": { "date": "1978-06-16T12:54:16.094Z", "age": 42 },
+      "registered": { "date": "2009-04-21T23:50:40.992Z", "age": 11 },
+      "phone": "(93) 6713-3317",
+      "cell": "(45) 2918-1745",
+      "id": { "name": "", "value": null },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/80.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/80.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/80.jpg"
+      },
+      "nat": "BR"
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Miss", "first": "Victoria", "last": "Sørensen" },
+      "location": {
+        "street": { "number": 8759, "name": "Dalvej" },
+        "city": "Aalborg S.Ø.",
+        "state": "Syddanmark",
+        "country": "Denmark",
+        "postcode": 30862,
+        "coordinates": { "latitude": "-57.5716", "longitude": "80.2038" },
+        "timezone": { "offset": "-9:00", "description": "Alaska" }
+      },
+      "email": "victoria.sorensen@example.com",
+      "login": {
+        "uuid": "683e1d1c-7859-4fe0-9e10-e3881485facb",
+        "username": "sadzebra523",
+        "password": "savior",
+        "salt": "GHhrIt0P",
+        "md5": "8731b0fa083b791f2d781c781cc5db41",
+        "sha1": "98ba0191e999bd6b36a1a52c28a3a036c7e6cd76",
+        "sha256": "d89dd1a92422061c90b5cd44a08ac6917b40e783fc985b90ff70d8073536ea5d"
+      },
+      "dob": { "date": "1952-10-15T17:42:04.320Z", "age": 68 },
+      "registered": { "date": "2004-02-07T00:10:08.967Z", "age": 16 },
+      "phone": "74518937",
+      "cell": "90708428",
+      "id": { "name": "CPR", "value": "151052-8409" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/96.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/96.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/96.jpg"
+      },
+      "nat": "DK"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Aschwin", "last": "Boot" },
+      "location": {
+        "street": { "number": 4861, "name": "Jeugdland" },
+        "city": "Posterholt",
+        "state": "Noord-Brabant",
+        "country": "Netherlands",
+        "postcode": 60903,
+        "coordinates": { "latitude": "86.9502", "longitude": "-10.5421" },
+        "timezone": {
+          "offset": "-8:00",
+          "description": "Pacific Time (US & Canada)"
+        }
+      },
+      "email": "aschwin.boot@example.com",
+      "login": {
+        "uuid": "21fb683e-f5ce-40b1-964d-d70fb21127db",
+        "username": "sadzebra477",
+        "password": "firewall",
+        "salt": "bRJZBT1G",
+        "md5": "9ec549bb0db7ffdca7bfc334de69f667",
+        "sha1": "c8b056d494d1a6944a49270370d70838fd64c702",
+        "sha256": "ace282fa35a91a7797727cec6223ae317d745cd941a3df73e6af405171e4e810"
+      },
+      "dob": { "date": "1967-07-26T22:05:50.666Z", "age": 53 },
+      "registered": { "date": "2012-04-02T07:22:09.215Z", "age": 8 },
+      "phone": "(676)-442-4635",
+      "cell": "(169)-396-2396",
+      "id": { "name": "BSN", "value": "54512710" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/31.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/31.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/31.jpg"
+      },
+      "nat": "NL"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Charlie", "last": "Espeseth" },
+      "location": {
+        "street": { "number": 2264, "name": "Arne Garborgs vei" },
+        "city": "Seim",
+        "state": "Akershus",
+        "country": "Norway",
+        "postcode": "5130",
+        "coordinates": { "latitude": "10.4450", "longitude": "23.6134" },
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "charlie.espeseth@example.com",
+      "login": {
+        "uuid": "0b9d7bd8-5bf6-4694-9ca7-647a5939e5fa",
+        "username": "saddog410",
+        "password": "1qaz2wsx",
+        "salt": "nZPwJBIW",
+        "md5": "967244970935bef11b199104f8c60d87",
+        "sha1": "d9efdb6947398e7b4467c1e84144921b7922c167",
+        "sha256": "dba671c65f11ba7a96d82d23b7ac4cf74c7cb7013c072d4b98e42f4f9bbc624a"
+      },
+      "dob": { "date": "1985-10-18T15:01:23.661Z", "age": 35 },
+      "registered": { "date": "2010-04-18T15:37:16.916Z", "age": 10 },
+      "phone": "53250303",
+      "cell": "98190777",
+      "id": { "name": "FN", "value": "18108510923" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/12.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/12.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/12.jpg"
+      },
+      "nat": "NO"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Jacob", "last": "Banks" },
+      "location": {
+        "street": { "number": 4591, "name": "Rectory Lane" },
+        "city": "Chichester",
+        "state": "Leicestershire",
+        "country": "United Kingdom",
+        "postcode": "Y2J 1LY",
+        "coordinates": { "latitude": "-52.2026", "longitude": "-38.9151" },
+        "timezone": {
+          "offset": "+5:30",
+          "description": "Bombay, Calcutta, Madras, New Delhi"
+        }
+      },
+      "email": "jacob.banks@example.com",
+      "login": {
+        "uuid": "fa97913c-21c2-4223-b0a0-53da5979c0b2",
+        "username": "beautifuldog834",
+        "password": "duane",
+        "salt": "zA0qBBw1",
+        "md5": "d4adb033fa5c4c6be218b3f69db354b6",
+        "sha1": "4e64070ace8251cd5990bae310b99411b73d949c",
+        "sha256": "217dcc7860bf5e3b02631721e34af2d6fcd93565e374db7b061c4308fbac18ac"
+      },
+      "dob": { "date": "1960-04-22T05:11:33.315Z", "age": 60 },
+      "registered": { "date": "2006-06-26T04:55:56.559Z", "age": 14 },
+      "phone": "017687 72194",
+      "cell": "0739-761-554",
+      "id": { "name": "NINO", "value": "MC 84 12 87 J" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/55.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/55.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/55.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Terry", "last": "Snyder" },
+      "location": {
+        "street": { "number": 2372, "name": "W Belt Line Rd" },
+        "city": "Mackay",
+        "state": "New South Wales",
+        "country": "Australia",
+        "postcode": 747,
+        "coordinates": { "latitude": "-27.9707", "longitude": "93.8169" },
+        "timezone": { "offset": "-9:00", "description": "Alaska" }
+      },
+      "email": "terry.snyder@example.com",
+      "login": {
+        "uuid": "72754805-058d-41f0-bbcc-89560b7b3906",
+        "username": "angrycat332",
+        "password": "boys",
+        "salt": "RDdpRDmG",
+        "md5": "1d436fd0e4b72dc6d323b2d6b42de572",
+        "sha1": "f9f6c82bb30764bf7128df83f6b8543c37ebde73",
+        "sha256": "efc9589800cdd82d4719cc903f126e9c64a487fb00b4dadce3bdacf1be825986"
+      },
+      "dob": { "date": "1962-01-11T13:00:29.319Z", "age": 58 },
+      "registered": { "date": "2017-02-21T06:10:46.843Z", "age": 3 },
+      "phone": "06-0371-2264",
+      "cell": "0434-170-643",
+      "id": { "name": "TFN", "value": "775787317" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/45.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "آرتين", "last": "نكو نظر" },
+      "location": {
+        "street": { "number": 1355, "name": "شهید دکتر آیت" },
+        "city": "نیشابور",
+        "state": "کهگیلویه و بویراحمد",
+        "country": "Iran",
+        "postcode": 76726,
+        "coordinates": { "latitude": "-12.0095", "longitude": "176.1876" },
+        "timezone": {
+          "offset": "+7:00",
+          "description": "Bangkok, Hanoi, Jakarta"
+        }
+      },
+      "email": "artyn.nkwnzr@example.com",
+      "login": {
+        "uuid": "4775d512-d438-4728-8cd5-cf4e0ad7173c",
+        "username": "redladybug853",
+        "password": "volleyba",
+        "salt": "X6rY0Qr1",
+        "md5": "814b6bd947bfd65d890ab9cde8ee8ad8",
+        "sha1": "e9c62529e235014d571026d989544a11c818f257",
+        "sha256": "1543058483683bef8eaec3ca2d4868c40867c1e83b382181762194cfc015899d"
+      },
+      "dob": { "date": "1973-07-19T14:55:36.426Z", "age": 47 },
+      "registered": { "date": "2013-04-11T08:09:47.961Z", "age": 7 },
+      "phone": "003-50353058",
+      "cell": "0943-816-0764",
+      "id": { "name": "", "value": null },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/60.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/60.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/60.jpg"
+      },
+      "nat": "IR"
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Nellie", "last": "Gray" },
+      "location": {
+        "street": { "number": 5476, "name": "Preston Rd" },
+        "city": "Mackay",
+        "state": "Queensland",
+        "country": "Australia",
+        "postcode": 2599,
+        "coordinates": { "latitude": "0.6921", "longitude": "144.1294" },
+        "timezone": {
+          "offset": "-7:00",
+          "description": "Mountain Time (US & Canada)"
+        }
+      },
+      "email": "nellie.gray@example.com",
+      "login": {
+        "uuid": "762d8491-a534-4b27-a979-f8787914e8e1",
+        "username": "ticklishmouse817",
+        "password": "4040",
+        "salt": "UwTr3DFl",
+        "md5": "e0b5fb63421fabfa7769666ea9c2f95b",
+        "sha1": "7fdafe67ffbe3f3ed755b8a79992ed29f17b8ccf",
+        "sha256": "8dd64de4e5f8effd1ac18694a93df104a4adcc161b76f5f9a2aafbe3a05c3478"
+      },
+      "dob": { "date": "1952-03-30T10:05:46.905Z", "age": 68 },
+      "registered": { "date": "2016-05-25T10:55:04.277Z", "age": 4 },
+      "phone": "05-6680-1537",
+      "cell": "0429-182-234",
+      "id": { "name": "TFN", "value": "469368771" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/51.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/51.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/51.jpg"
+      },
+      "nat": "AU"
+    },
+    {
+      "gender": "female",
+      "name": { "title": "Ms", "first": "Allie", "last": "West" },
+      "location": {
+        "street": { "number": 1997, "name": "Queen Street" },
+        "city": "Ely",
+        "state": "West Yorkshire",
+        "country": "United Kingdom",
+        "postcode": "P5 1YD",
+        "coordinates": { "latitude": "-67.4013", "longitude": "59.0032" },
+        "timezone": {
+          "offset": "-6:00",
+          "description": "Central Time (US & Canada), Mexico City"
+        }
+      },
+      "email": "allie.west@example.com",
+      "login": {
+        "uuid": "c96d7514-064e-4e3c-997f-8fe688b236c4",
+        "username": "blackmeercat785",
+        "password": "shirley",
+        "salt": "AgEpEwgP",
+        "md5": "00201907d92276d53bf1f6a22647a5c9",
+        "sha1": "f57d4131a35a7935e9516993e9ea608c1d1fcf36",
+        "sha256": "597c975c03028b298e7767485869225cc9bbfa16e9fb4d631134224b648f5d2f"
+      },
+      "dob": { "date": "1984-03-23T08:18:31.207Z", "age": 36 },
+      "registered": { "date": "2013-03-12T21:19:03.989Z", "age": 7 },
+      "phone": "015394 25232",
+      "cell": "0717-363-301",
+      "id": { "name": "NINO", "value": "SG 83 10 42 N" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/women/27.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/women/27.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/women/27.jpg"
+      },
+      "nat": "GB"
+    },
+    {
+      "gender": "male",
+      "name": { "title": "Mr", "first": "Julio", "last": "Sanchez" },
+      "location": {
+        "street": { "number": 9400, "name": "Edwards Rd" },
+        "city": "Bathurst",
+        "state": "Western Australia",
+        "country": "Australia",
+        "postcode": 8992,
+        "coordinates": { "latitude": "-38.3548", "longitude": "-6.8070" },
+        "timezone": { "offset": "+3:30", "description": "Tehran" }
+      },
+      "email": "julio.sanchez@example.com",
+      "login": {
+        "uuid": "dd1c42e7-06b9-4e3e-84ae-6f1e6fcb2887",
+        "username": "greenladybug346",
+        "password": "eternity",
+        "salt": "a2rvFcuN",
+        "md5": "eaa2d0dc53f9eac0cc31b3263b735530",
+        "sha1": "9fbef8435f0c0b7a95c3deb5a98503249f303095",
+        "sha256": "46a560b3cc52350f8796fb40307fd8c564f480b1735514003de3dff0c50fa2aa"
+      },
+      "dob": { "date": "1953-11-03T17:47:16.863Z", "age": 67 },
+      "registered": { "date": "2011-08-21T11:17:13.265Z", "age": 9 },
+      "phone": "06-0843-9645",
+      "cell": "0431-508-885",
+      "id": { "name": "TFN", "value": "796044976" },
+      "picture": {
+        "large": "https://randomuser.me/api/portraits/men/53.jpg",
+        "medium": "https://randomuser.me/api/portraits/med/men/53.jpg",
+        "thumbnail": "https://randomuser.me/api/portraits/thumb/men/53.jpg"
+      },
+      "nat": "AU"
+    }
+  ],
+  "info": {
+    "seed": "a2ba65cb01f44709",
+    "results": 10,
+    "page": 1,
+    "version": "1.3"
+  }
+}
