@@ -80,9 +80,9 @@ color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};
 ## Mini-projet : un timer
 
 
-#### Lien vers [codesandbox.io](https://codesandbox.io/s/magical-ardinghelli-ci9gz)
+#### Lien vers [codesandbox.io](https://codesandbox.io/live/3q7wr7n)
 
-#### Liens vers [netlify.com](https://csb-ci9gz.netlify.app/)
+#### Liens vers [netlify.com](https://csb-7f3cv.netlify.app/)
 
 Programmez un composant qui s'incrémente à chaque seconde. Vous aurez pour cela besoin d'utiliser la fonction [`setInterval`](https://www.w3schools.com/jsref/met_win_setinterval.asp). 
 
