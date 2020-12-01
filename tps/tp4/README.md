@@ -80,7 +80,7 @@ color: ${(props) => (props.isValid && "cornflowerblue") || "palevioletred"};
 ## Mini-projet : un timer
 
 
-#### Lien vers [codesandbox.io](https://codesandbox.io/live/3q7wr7n)
+#### Lien vers [codesandbox.io](https://codesandbox.io/s/cool-frog-7f3cv)
 
 #### Liens vers [netlify.com](https://csb-7f3cv.netlify.app/)
 
