@@ -141,8 +141,8 @@ ReactDOM.render(
 Récupérer les paramètres envoyés depuis l'URL `<Route path="/post/:name">` 
 
 **9. Créez un nouveau projet à partir de code.  Créez un test qui injecte `MemoryRouter` autour de `App`. Indiquez des URL à `MemoryRouter` et vérifiez que les posts affichent bien le contenu de l'URL.**
-[Page]()
-[Code]()
+[Page](https://csb-tl2je.netlify.app/)
+[Code](https://codesandbox.io/s/sharp-hamilton-tl2je)
 Aide : la [documentation](https://reactrouter.com/web/guides/testing) fournit quelques renseignements sur le testing d'une application avec un routeur. Vous pouvez reprendre également la [documentation de React conernant les tests](https://reactjs.org/docs/testing.html).
 
 
