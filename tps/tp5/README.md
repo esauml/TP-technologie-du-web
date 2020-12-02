@@ -69,7 +69,15 @@ Notre composant `CustomRoute` accepte deux props:
 ```useHistory, useParams, useLocation ```
 
 **7. Faites l'implémentation de `CustomRoute`, ajoutez les `propTypes`, testez la dans une codesandbox et copiez votre implémentation de `CustomRoute` dans ce document.**
-
+```jsx
+const CustomRoute = ({ component: Component, ...rest }) => {
+  return (
+    <Route {...rest}>
+      <Component />
+    </Route>
+  );
+};
+```
 
 ## Tester le routage avec React
 
@@ -119,7 +127,7 @@ ReactDOM.render(
 ```
 
 **8. Ce code utilise `useParams`, que nous n'avons encore jamais utilisé. A quoi sert-il ?**
-Il nous aider a obtenir les props que se passer dans la navegation 
+Récupérer les paramètres envoyés depuis le chemin `<Route path="/post/:name">` 
 
 **9. Créez un nouveau projet à partir de code.  Créez un test qui injecte `MemoryRouter` autour de `App`. Indiquez des URL à `MemoryRouter` et vérifiez que les posts affichent bien le contenu de l'URL.**
 
