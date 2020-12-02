@@ -77,6 +77,13 @@ const CustomRoute = ({ component: Component, ...rest }) => {
     </Route>
   );
 };
+
+CustomRoute.propTypes = {
+  Component: PropTypes.elementType,
+  rest: PropTypes.shape({
+    path: PropTypes.string
+  })
+};
 ```
 
 ## Tester le routage avec React
@@ -127,7 +134,8 @@ ReactDOM.render(
 ```
 
 **8. Ce code utilise `useParams`, que nous n'avons encore jamais utilisé. A quoi sert-il ?**
-Récupérer les paramètres envoyés depuis le chemin `<Route path="/post/:name">` 
+
+Récupérer les paramètres envoyés depuis l'URL `<Route path="/post/:name">` 
 
 **9. Créez un nouveau projet à partir de code.  Créez un test qui injecte `MemoryRouter` autour de `App`. Indiquez des URL à `MemoryRouter` et vérifiez que les posts affichent bien le contenu de l'URL.**
 
