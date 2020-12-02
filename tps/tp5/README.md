@@ -97,16 +97,19 @@ Nous séparons alors l'appel au `Router` du reste de l'application afin de simpl
 ```jsx
 // index.js
 export default function App() {
+const pages= [{ path: "/pages/mon-premier-articlee", name: "Mon premier article" },
+    { path: "/pages/mon-premier-articlee", name: "Mon  article" }]
   return (
       <main>
         <nav>
           <ul>
+             {pages.map((page, index) => {
+              return (
            <li>
-              <Link to="/pages/mon-premier-article">Mon premier article</Link>
+              <Link to={page.path}>{page.name}</Link>
             </li>
-            <li>
-              <Link to="/pages/mon-second-article">Mon second article</Link>
-            </li>
+              );
+            })}
           </ul>
         </nav>
       <Route path="/post/:name">
@@ -138,7 +141,8 @@ ReactDOM.render(
 Récupérer les paramètres envoyés depuis l'URL `<Route path="/post/:name">` 
 
 **9. Créez un nouveau projet à partir de code.  Créez un test qui injecte `MemoryRouter` autour de `App`. Indiquez des URL à `MemoryRouter` et vérifiez que les posts affichent bien le contenu de l'URL.**
-
+[Page]()
+[Code]()
 Aide : la [documentation](https://reactrouter.com/web/guides/testing) fournit quelques renseignements sur le testing d'une application avec un routeur. Vous pouvez reprendre également la [documentation de React conernant les tests](https://reactjs.org/docs/testing.html).
 
 
